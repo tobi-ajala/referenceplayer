@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+	/* we explicitly set the size of the body element. This avoids that browser show scroll bars or that pages are floating if they are
+	bigger than the logical screen size */
+	width: 1280px;
+	height: 720px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.video {
+	width: fit-content;
+	height: fit-content;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: transparent;
+}
+
+.video video {
+	width: 1280px;
+	height: 720px;
+	top: 0px;
+	left: 0px;
+	display: none;
+	background-color: transparent;
+}

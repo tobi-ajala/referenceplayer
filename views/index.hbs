@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta 	http-equiv="Content-Type" content="application/vnd.hbbtv.xml+xhtml; utf-8" />
+
+		<script type="text/javascript" src="http://cdn.dashjs.org/latest/dash.all.debug.js"></script>
+        <script src="/socket.io/socket.io.js" charset="utf-8"></script> <!-- needed for sockets io to be able to detect the client -->
+
+        <script type="text/javascript" src="js/mvid.js"></script>
+
+        <link 	rel="stylesheet" href="css/mvid.css" />
+	</head>
+
+	<body>
+		<div id="player-container" class="video" controls="true">
+			<video id="mVid-mainContent" display="none">
+				<source id="mVid-mainContent-source" src="" type="" preload="auto" loop="true"></source>
+			</video>
+		</div>
+
+    </body>
+</html>

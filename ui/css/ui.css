@@ -1,0 +1,133 @@
+body
+{
+	background-color: white;
+}
+
+.status-table-container {
+	width: 300px;
+	height: 720px;
+	top: 0;
+	left: 850px;
+	background-color: white;
+	color: black;
+	position: absolute;
+}
+
+.status-table-container table {
+	width: inherit;
+	border: none;
+	margin: 1ex auto auto;
+}
+
+.status-table-container caption {
+	border-radius: 4px;
+	background-color: blue;
+	color: white;
+}
+
+#status-table-body0 td {
+	text-align: left;
+	width: 6ex;
+}
+
+#status-table-body1 td {
+	text-align: left;
+	width: 6ex;
+}
+
+#status-table-body2 td {
+	text-align: left;
+	width: 6ex;
+}
+
+p {
+	color: white;
+}
+
+.log {
+	height: 200px;
+	width: 800px;
+	left: 10px;
+	top: 50px;
+	position: absolute;
+}
+
+.log p{
+	max-width: 800px;
+	word-wrap: break-word;
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+}
+
+.debug {
+	color: white;
+}
+
+.info {
+	color: green;
+}
+
+.warn {
+	color: blue;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.progress-bar-container {
+	width: 500px;
+	height: 50px;
+	top: 380px;
+	left: 850px;
+	background-color: white;
+	color: black;
+	position: absolute;
+}
+
+.progress-bar-container p {
+	color: black;
+}
+
+progress {
+	/* Turns off styling - not usually needed, but good to know. */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+
+	/* gets rid of default border in Firefox and Opera. */
+	border: none;
+
+	/* Needs to be in here for Safari polyfill so background images work as expected. */
+	background-size: auto;
+
+	width: 300px;
+    border-radius: 4px;
+}
+
+.bufferBar {
+	color: green;
+	border-radius: 4px;
+}
+
+.playbackBar {
+	color: red;
+	width: 800px;
+}
+
+progress::-webkit-progress-value {
+	background-color: green;
+}
+
+.playbackBar::-webkit-progress-value {
+	background-color: yellow;
+}
+
+progress::-moz-progress-bar {
+	background-color: green;
+}
+
+.playbackBar::-moz-progress-bar {
+	background-color: red;
+}

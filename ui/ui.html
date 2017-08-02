@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <script type="text/javascript" src="js/ui.js"></script>
+
+        <link rel="stylesheet" href="css/ui.css" />
+	</head>
+
+	<body>
+		<div class="videoControls">
+			<progress value="0" max="100" id="playbackBar" class="playbackBar" role="progressbar">
+			</progress>
+		</div>
+		<div id="log" class="log"></div>
+		<div class="status-table-container">
+			<table>
+				<caption>Status</caption>
+				<tbody>
+					<tr>
+						<td>Buffer Idx</td>
+						<td id="BufferIdx">0</td>
+					</tr>
+					<tr>
+						<td>Playing Idx</td>
+						<td id="PlayingIdx">0</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<caption>Main Content</caption>
+				<tbody id="status-table-body0">
+				</tbody>
+			</table>
+			<table>
+				<caption>Player 0</caption>
+				<tbody id="status-table-body1">
+				</tbody>
+			</table>
+			<table>
+				<caption>Player 1</caption>
+				<tbody id="status-table-body2">
+				</tbody>
+			</table>
+		</div>
+		<div class="progress-bar-container">
+			<p>Main Buffer:</p>
+			<progress value="0" max="100" height="500px" id="mVid-mainContent-bufferBar" 	class="bufferBar" 		role="progressbar">
+			</progress>
+			<p>Video 0 Buffer:</p>
+			<progress value="0" max="100" height="500px" id="mVid-video0-bufferBar" 		class="bufferBar" 		role="progressbar">
+			</progress>
+			<p>Video 1 Buffer:</p>
+			<progress value="0" max="100" height="500px" id="mVid-video1-bufferBar" 		class="bufferBar" 		role="progressbar">
+			</progress>
+		</div>
+    </body>
+</html>

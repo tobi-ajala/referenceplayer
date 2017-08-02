@@ -1,0 +1,17 @@
+{
+  "name": "RefPlayer",
+  "private": true,
+  "version": "0.0.1",
+  "description": "HBBTV Reference Player",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "hbs": "^4.0.1",
+    "socket.io": "^1.7.2",
+    "electron": "^1.4.1"
+  }
+}
